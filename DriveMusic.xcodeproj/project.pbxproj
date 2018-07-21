@@ -15,6 +15,8 @@
 		02BCF067210311CA00D6F3D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BCF066210311CA00D6F3D8 /* main.m */; };
 		02BCF071210311CA00D6F3D8 /* DriveMusicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BCF070210311CA00D6F3D8 /* DriveMusicTests.m */; };
 		02BCF07C210311CA00D6F3D8 /* DriveMusicUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BCF07B210311CA00D6F3D8 /* DriveMusicUITests.m */; };
+		02C4F48B2103269000DD27D1 /* UserInfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02C4F48A2103269000DD27D1 /* UserInfoController.m */; };
+		BEDC12B2F4157F9DE8C34485 /* libPods-DriveMusic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A7626E7C54A0B23DB91EE7B /* libPods-DriveMusic.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,11 @@
 		02BCF077210311CA00D6F3D8 /* DriveMusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DriveMusicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		02BCF07B210311CA00D6F3D8 /* DriveMusicUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DriveMusicUITests.m; sourceTree = "<group>"; };
 		02BCF07D210311CA00D6F3D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02C4F4892103269000DD27D1 /* UserInfoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserInfoController.h; sourceTree = "<group>"; };
+		02C4F48A2103269000DD27D1 /* UserInfoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserInfoController.m; sourceTree = "<group>"; };
+		4A7626E7C54A0B23DB91EE7B /* libPods-DriveMusic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DriveMusic.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64B343CA1398E59EAE8980F5 /* Pods-DriveMusic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DriveMusic.release.xcconfig"; path = "Pods/Target Support Files/Pods-DriveMusic/Pods-DriveMusic.release.xcconfig"; sourceTree = "<group>"; };
+		8BA1B208409FAFBE4FAE294D /* Pods-DriveMusic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DriveMusic.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DriveMusic/Pods-DriveMusic.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEDC12B2F4157F9DE8C34485 /* libPods-DriveMusic.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +93,8 @@
 				02BCF06F210311CA00D6F3D8 /* DriveMusicTests */,
 				02BCF07A210311CA00D6F3D8 /* DriveMusicUITests */,
 				02BCF055210311C800D6F3D8 /* Products */,
+				20AF287BDACD93A819B59E75 /* Pods */,
+				648637980A6A81C6D0B58213 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +120,8 @@
 				02BCF062210311C900D6F3D8 /* LaunchScreen.storyboard */,
 				02BCF065210311CA00D6F3D8 /* Info.plist */,
 				02BCF066210311CA00D6F3D8 /* main.m */,
+				02C4F4892103269000DD27D1 /* UserInfoController.h */,
+				02C4F48A2103269000DD27D1 /* UserInfoController.m */,
 			);
 			path = DriveMusic;
 			sourceTree = "<group>";
@@ -132,6 +144,23 @@
 			path = DriveMusicUITests;
 			sourceTree = "<group>";
 		};
+		20AF287BDACD93A819B59E75 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8BA1B208409FAFBE4FAE294D /* Pods-DriveMusic.debug.xcconfig */,
+				64B343CA1398E59EAE8980F5 /* Pods-DriveMusic.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		648637980A6A81C6D0B58213 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A7626E7C54A0B23DB91EE7B /* libPods-DriveMusic.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +168,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 02BCF080210311CA00D6F3D8 /* Build configuration list for PBXNativeTarget "DriveMusic" */;
 			buildPhases = (
+				BD1371189BDA123BE5660BF6 /* [CP] Check Pods Manifest.lock */,
 				02BCF050210311C800D6F3D8 /* Sources */,
 				02BCF051210311C800D6F3D8 /* Frameworks */,
 				02BCF052210311C800D6F3D8 /* Resources */,
+				5BBB4F2177DD559605ECA600 /* [CP] Embed Pods Frameworks */,
+				8D879F2FEC94FC675FCB4741 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,6 +289,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5BBB4F2177DD559605ECA600 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DriveMusic/Pods-DriveMusic-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D879F2FEC94FC675FCB4741 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DriveMusic/Pods-DriveMusic-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD1371189BDA123BE5660BF6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DriveMusic-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		02BCF050210311C800D6F3D8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -264,6 +347,7 @@
 			files = (
 				02BCF05C210311C900D6F3D8 /* ViewController.m in Sources */,
 				02BCF067210311CA00D6F3D8 /* main.m in Sources */,
+				02C4F48B2103269000DD27D1 /* UserInfoController.m in Sources */,
 				02BCF059210311C900D6F3D8 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,15 +515,17 @@
 		};
 		02BCF081210311CA00D6F3D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BA1B208409FAFBE4FAE294D /* Pods-DriveMusic.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N75TFFUYJP;
 				INFOPLIST_FILE = DriveMusic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.globetrekkerchallenge.app.DriveMusic;
+				PRODUCT_BUNDLE_IDENTIFIER = com.globetrekkerchallenge.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -447,15 +533,17 @@
 		};
 		02BCF082210311CA00D6F3D8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64B343CA1398E59EAE8980F5 /* Pods-DriveMusic.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N75TFFUYJP;
 				INFOPLIST_FILE = DriveMusic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.globetrekkerchallenge.app.DriveMusic;
+				PRODUCT_BUNDLE_IDENTIFIER = com.globetrekkerchallenge.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
