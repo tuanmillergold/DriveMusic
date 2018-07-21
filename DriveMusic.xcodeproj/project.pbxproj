@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02BCF059210311C900D6F3D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BCF058210311C900D6F3D8 /* AppDelegate.m */; };
+		02BCF05C210311C900D6F3D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BCF05B210311C900D6F3D8 /* ViewController.m */; };
+		02BCF05F210311C900D6F3D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02BCF05D210311C900D6F3D8 /* Main.storyboard */; };
+		02BCF061210311C900D6F3D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02BCF060210311C900D6F3D8 /* Assets.xcassets */; };
+		02BCF064210311C900D6F3D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02BCF062210311C900D6F3D8 /* LaunchScreen.storyboard */; };
+		02BCF067210311CA00D6F3D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BCF066210311CA00D6F3D8 /* main.m */; };
+		02BCF071210311CA00D6F3D8 /* DriveMusicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BCF070210311CA00D6F3D8 /* DriveMusicTests.m */; };
+		02BCF07C210311CA00D6F3D8 /* DriveMusicUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BCF07B210311CA00D6F3D8 /* DriveMusicUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02BCF06D210311CA00D6F3D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02BCF04C210311C800D6F3D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02BCF053210311C800D6F3D8;
+			remoteInfo = DriveMusic;
+		};
+		02BCF078210311CA00D6F3D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02BCF04C210311C800D6F3D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02BCF053210311C800D6F3D8;
+			remoteInfo = DriveMusic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02BCF054210311C800D6F3D8 /* DriveMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DriveMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02BCF057210311C800D6F3D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		02BCF058210311C900D6F3D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		02BCF05A210311C900D6F3D8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		02BCF05B210311C900D6F3D8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		02BCF05E210311C900D6F3D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		02BCF060210311C900D6F3D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		02BCF063210311C900D6F3D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		02BCF065210311CA00D6F3D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02BCF066210311CA00D6F3D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		02BCF06C210311CA00D6F3D8 /* DriveMusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DriveMusicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02BCF070210311CA00D6F3D8 /* DriveMusicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DriveMusicTests.m; sourceTree = "<group>"; };
+		02BCF072210311CA00D6F3D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02BCF077210311CA00D6F3D8 /* DriveMusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DriveMusicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02BCF07B210311CA00D6F3D8 /* DriveMusicUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DriveMusicUITests.m; sourceTree = "<group>"; };
+		02BCF07D210311CA00D6F3D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02BCF051210311C800D6F3D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02BCF069210311CA00D6F3D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02BCF074210311CA00D6F3D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02BCF04B210311C800D6F3D8 = {
+			isa = PBXGroup;
+			children = (
+				02BCF056210311C800D6F3D8 /* DriveMusic */,
+				02BCF06F210311CA00D6F3D8 /* DriveMusicTests */,
+				02BCF07A210311CA00D6F3D8 /* DriveMusicUITests */,
+				02BCF055210311C800D6F3D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02BCF055210311C800D6F3D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02BCF054210311C800D6F3D8 /* DriveMusic.app */,
+				02BCF06C210311CA00D6F3D8 /* DriveMusicTests.xctest */,
+				02BCF077210311CA00D6F3D8 /* DriveMusicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02BCF056210311C800D6F3D8 /* DriveMusic */ = {
+			isa = PBXGroup;
+			children = (
+				02BCF057210311C800D6F3D8 /* AppDelegate.h */,
+				02BCF058210311C900D6F3D8 /* AppDelegate.m */,
+				02BCF05A210311C900D6F3D8 /* ViewController.h */,
+				02BCF05B210311C900D6F3D8 /* ViewController.m */,
+				02BCF05D210311C900D6F3D8 /* Main.storyboard */,
+				02BCF060210311C900D6F3D8 /* Assets.xcassets */,
+				02BCF062210311C900D6F3D8 /* LaunchScreen.storyboard */,
+				02BCF065210311CA00D6F3D8 /* Info.plist */,
+				02BCF066210311CA00D6F3D8 /* main.m */,
+			);
+			path = DriveMusic;
+			sourceTree = "<group>";
+		};
+		02BCF06F210311CA00D6F3D8 /* DriveMusicTests */ = {
+			isa = PBXGroup;
+			children = (
+				02BCF070210311CA00D6F3D8 /* DriveMusicTests.m */,
+				02BCF072210311CA00D6F3D8 /* Info.plist */,
+			);
+			path = DriveMusicTests;
+			sourceTree = "<group>";
+		};
+		02BCF07A210311CA00D6F3D8 /* DriveMusicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				02BCF07B210311CA00D6F3D8 /* DriveMusicUITests.m */,
+				02BCF07D210311CA00D6F3D8 /* Info.plist */,
+			);
+			path = DriveMusicUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02BCF053210311C800D6F3D8 /* DriveMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02BCF080210311CA00D6F3D8 /* Build configuration list for PBXNativeTarget "DriveMusic" */;
+			buildPhases = (
+				02BCF050210311C800D6F3D8 /* Sources */,
+				02BCF051210311C800D6F3D8 /* Frameworks */,
+				02BCF052210311C800D6F3D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DriveMusic;
+			productName = DriveMusic;
+			productReference = 02BCF054210311C800D6F3D8 /* DriveMusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		02BCF06B210311CA00D6F3D8 /* DriveMusicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02BCF083210311CA00D6F3D8 /* Build configuration list for PBXNativeTarget "DriveMusicTests" */;
+			buildPhases = (
+				02BCF068210311CA00D6F3D8 /* Sources */,
+				02BCF069210311CA00D6F3D8 /* Frameworks */,
+				02BCF06A210311CA00D6F3D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02BCF06E210311CA00D6F3D8 /* PBXTargetDependency */,
+			);
+			name = DriveMusicTests;
+			productName = DriveMusicTests;
+			productReference = 02BCF06C210311CA00D6F3D8 /* DriveMusicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		02BCF076210311CA00D6F3D8 /* DriveMusicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02BCF086210311CA00D6F3D8 /* Build configuration list for PBXNativeTarget "DriveMusicUITests" */;
+			buildPhases = (
+				02BCF073210311CA00D6F3D8 /* Sources */,
+				02BCF074210311CA00D6F3D8 /* Frameworks */,
+				02BCF075210311CA00D6F3D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02BCF079210311CA00D6F3D8 /* PBXTargetDependency */,
+			);
+			name = DriveMusicUITests;
+			productName = DriveMusicUITests;
+			productReference = 02BCF077210311CA00D6F3D8 /* DriveMusicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02BCF04C210311C800D6F3D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = BLM;
+				TargetAttributes = {
+					02BCF053210311C800D6F3D8 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					02BCF06B210311CA00D6F3D8 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 02BCF053210311C800D6F3D8;
+					};
+					02BCF076210311CA00D6F3D8 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 02BCF053210311C800D6F3D8;
+					};
+				};
+			};
+			buildConfigurationList = 02BCF04F210311C800D6F3D8 /* Build configuration list for PBXProject "DriveMusic" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02BCF04B210311C800D6F3D8;
+			productRefGroup = 02BCF055210311C800D6F3D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02BCF053210311C800D6F3D8 /* DriveMusic */,
+				02BCF06B210311CA00D6F3D8 /* DriveMusicTests */,
+				02BCF076210311CA00D6F3D8 /* DriveMusicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02BCF052210311C800D6F3D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02BCF064210311C900D6F3D8 /* LaunchScreen.storyboard in Resources */,
+				02BCF061210311C900D6F3D8 /* Assets.xcassets in Resources */,
+				02BCF05F210311C900D6F3D8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02BCF06A210311CA00D6F3D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02BCF075210311CA00D6F3D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02BCF050210311C800D6F3D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02BCF05C210311C900D6F3D8 /* ViewController.m in Sources */,
+				02BCF067210311CA00D6F3D8 /* main.m in Sources */,
+				02BCF059210311C900D6F3D8 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02BCF068210311CA00D6F3D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02BCF071210311CA00D6F3D8 /* DriveMusicTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02BCF073210311CA00D6F3D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02BCF07C210311CA00D6F3D8 /* DriveMusicUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02BCF06E210311CA00D6F3D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02BCF053210311C800D6F3D8 /* DriveMusic */;
+			targetProxy = 02BCF06D210311CA00D6F3D8 /* PBXContainerItemProxy */;
+		};
+		02BCF079210311CA00D6F3D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02BCF053210311C800D6F3D8 /* DriveMusic */;
+			targetProxy = 02BCF078210311CA00D6F3D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		02BCF05D210311C900D6F3D8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02BCF05E210311C900D6F3D8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		02BCF062210311C900D6F3D8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02BCF063210311C900D6F3D8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02BCF07E210311CA00D6F3D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		02BCF07F210311CA00D6F3D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02BCF081210311CA00D6F3D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DriveMusic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.globetrekkerchallenge.app.DriveMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		02BCF082210311CA00D6F3D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DriveMusic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.globetrekkerchallenge.app.DriveMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		02BCF084210311CA00D6F3D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DriveMusicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.globetrekkerchallenge.app.DriveMusicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DriveMusic.app/DriveMusic";
+			};
+			name = Debug;
+		};
+		02BCF085210311CA00D6F3D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DriveMusicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.globetrekkerchallenge.app.DriveMusicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DriveMusic.app/DriveMusic";
+			};
+			name = Release;
+		};
+		02BCF087210311CA00D6F3D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DriveMusicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.globetrekkerchallenge.app.DriveMusicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DriveMusic;
+			};
+			name = Debug;
+		};
+		02BCF088210311CA00D6F3D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DriveMusicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.globetrekkerchallenge.app.DriveMusicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DriveMusic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02BCF04F210311C800D6F3D8 /* Build configuration list for PBXProject "DriveMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02BCF07E210311CA00D6F3D8 /* Debug */,
+				02BCF07F210311CA00D6F3D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02BCF080210311CA00D6F3D8 /* Build configuration list for PBXNativeTarget "DriveMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02BCF081210311CA00D6F3D8 /* Debug */,
+				02BCF082210311CA00D6F3D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02BCF083210311CA00D6F3D8 /* Build configuration list for PBXNativeTarget "DriveMusicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02BCF084210311CA00D6F3D8 /* Debug */,
+				02BCF085210311CA00D6F3D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02BCF086210311CA00D6F3D8 /* Build configuration list for PBXNativeTarget "DriveMusicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02BCF087210311CA00D6F3D8 /* Debug */,
+				02BCF088210311CA00D6F3D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02BCF04C210311C800D6F3D8 /* Project object */;
+}
